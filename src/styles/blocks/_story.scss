@@ -1,0 +1,42 @@
+.story {
+  padding-top: 150px;
+
+  margin-top: -50px;
+
+  border-top: 2px solid rgb(32, 34, 23);
+}
+.story__title {
+}
+.story__wrapper {
+  margin-top: 90px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+}
+.story__wrapper_item {
+  max-width: 400px;
+}
+.story__item_title {
+  margin-bottom: 35px;
+}
+.story__item_subtitle {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+}
+.story__image {
+  position: absolute;
+}
+.story__image_one {
+  left: 40%;
+  top: 45%;
+}
+.story__image_two {
+  top: 30%;
+  left: 60%;
+
+  transform: rotate(15deg);
+
+  z-index: -1;
+}

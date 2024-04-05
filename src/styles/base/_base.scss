@@ -1,0 +1,56 @@
+body {
+  font-family: $futura;
+  font-size: 16px;
+  background-color: $colorBg;
+  overflow-x: hidden !important;
+}
+
+a {
+  transition: color 0.2s linear;
+
+  &:hover {
+    // color: $fff;
+  }
+}
+
+.none {
+  display: none !important;
+}
+
+.container {
+  max-width: 1460px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+
+  &_header {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  &_story {
+    position: relative;
+  }
+}
+
+.title2 {
+  font-family: $emilea;
+  font-size: 133.43px;
+  font-weight: 400;
+  line-height: 178px;
+
+  &_story {
+    span {
+      color: rgb(210, 86, 79);
+    }
+  }
+}
+
+.title3 {
+  font-size: 31.52px;
+  font-weight: 700;
+  line-height: 42px;
+}
