@@ -36,11 +36,22 @@ a {
   }
 }
 
+.title1 {
+  &_header {
+    // color: rgb(233, 233, 219);
+    font-size: clamp(40px, -0.912rem + 17.06vw, 156px);
+    font-weight: 700;
+    line-height: clamp(40px, -2.441rem + 24.71vw, 208px);
+
+    // text-shadow: 0px 0px 2px #000;
+  }
+}
+
 .title2 {
   font-family: $emilea;
-  font-size: 133.43px;
+  font-size: clamp(30px, -0.398rem + 11.36vw, 130px);
   font-weight: 400;
-  line-height: 178px;
+  line-height: clamp(30px, -1.489rem + 16.82vw, 178px);
 
   &_story {
     span {
@@ -49,7 +60,7 @@ a {
   }
 
   &_gallery {
-    font-size: 82.07px;
+    font-size: clamp(42px, 1.716rem + 4.55vw, 82px);
     font-weight: 400;
     line-height: 89px;
     letter-spacing: -7%;
@@ -57,14 +68,14 @@ a {
 
   &_celebrate {
     color: rgb(176, 105, 93);
-    font-size: 273.85px;
+    font-size: clamp(60px, -1.023rem + 23.86vw, 270px);
     font-weight: 400;
-    line-height: 298px;
+    line-height: clamp(40px, -3.364rem + 29.32vw, 298px);
   }
 }
 
 .title3 {
-  font-size: 31.52px;
+  font-size: clamp(20px, 1rem + 1.25vw, 31px);
   font-weight: 700;
   line-height: 42px;
 
@@ -79,7 +90,7 @@ a {
 .title4 {
   color: rgb(32, 34, 23);
   font-family: $emilea;
-  font-size: 40.53px;
+  font-size: clamp(25px, 1.222rem + 1.7vw, 40px);
   font-weight: 400;
-  line-height: 44px;
+  line-height: clamp(35px, 1.983rem + 1.02vw, 44px);
 }
