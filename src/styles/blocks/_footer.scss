@@ -1,0 +1,62 @@
+.footer {
+  padding: 65px 0;
+
+  background: rgb(44, 45, 38);
+}
+.foooter__nav {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  column-gap: 165px;
+}
+.footer__list {
+}
+.footer__item {
+  color: rgb(233, 233, 219);
+  font-family: $dmSans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+
+  &:first-child {
+    margin-bottom: 15px;
+  }
+
+  &:not(:first-child) {
+    margin-bottom: 10px;
+  }
+
+  &:last-child {
+    margin-bottom: unset;
+  }
+}
+.footer__link {
+  font-weight: 500;
+  line-height: 21px;
+
+  opacity: 0.5;
+
+  transition: opacity 0.2s linear;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+
+  margin-top: 50px;
+}
+.footer__info_copyright {
+  color: rgb(233, 233, 219);
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer__info_socials {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}

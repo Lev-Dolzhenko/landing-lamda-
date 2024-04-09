@@ -54,12 +54,26 @@ a {
     line-height: 89px;
     letter-spacing: -7%;
   }
+
+  &_celebrate {
+    color: rgb(176, 105, 93);
+    font-size: 273.85px;
+    font-weight: 400;
+    line-height: 298px;
+  }
 }
 
 .title3 {
   font-size: 31.52px;
   font-weight: 700;
   line-height: 42px;
+
+  &_footer {
+    color: rgb(233, 233, 219);
+    font-size: 77.69px;
+    font-weight: 500;
+    line-height: 103px;
+  }
 }
 
 .title4 {

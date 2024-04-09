@@ -2,6 +2,7 @@
 
 @import "../fonts/FuturaPT/stylesheet.css";
 @import "../fonts/emilea/stylesheet.css";
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import "./base/animations";
 @import "./base/mixins";
 @import "./base/reset";
@@ -14,3 +15,5 @@
 @import "./blocks/story";
 @import "./blocks/gallery";
 @import "./blocks/type";
+@import "./blocks/celebrate";
+@import "./blocks/footer";
