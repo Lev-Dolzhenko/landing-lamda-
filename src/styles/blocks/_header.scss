@@ -94,6 +94,44 @@
   display: none;
 }
 
+.header__mobile {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  background-color: $colorBg;
+
+  transform: translateY(-100%);
+}
+.header__mobile_list {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  row-gap: 10px;
+}
+
+.header__nav_button-mobile {
+  transform: rotate(180deg);
+}
+
+.showMobMenu {
+  animation: showMobMenu 0.4s linear forwards;
+}
+
+.hideMobMenu {
+  animation: hideMobMenu 0.4s linear forwards;
+}
+
 @media screen and (max-width: 1350px) {
   .header__text {
     display: none;
